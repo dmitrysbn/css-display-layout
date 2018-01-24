@@ -9,23 +9,27 @@ html {
 h1 {
   background-color: #333333;
   font-family: Arial;
+  font-weight: 2000;
   color: #ffffff;
 
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 10px 20px 10px;
+
+  margin: 0px;
+  padding: 20px;
 }
 
 h2 {
     background-color: #8cffc6;
     font-family: sans-serif;
+    font-weight: 500;
+
     padding: 15px 10px 15px;
 }
 
 strong {
-    border-bottom: 3px solid yellow;
-    font-weight: 900;
+  font-weight: 900;
+
+  border-bottom: 3px solid yellow;
 }
 
 div.button {
@@ -35,15 +39,22 @@ div.button {
     font-weight: bold;
 
     display: inline-block;
+    text-align: center;
+
     margin: 0px;
     margin-top: 0px;
     padding: 8px 6px 8px;
-    text-align: center;
 }
 
 div.image {
   display: inline-block;
+
   margin: 6px 0px 6px;
+}
+
+.row {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 p.options {
@@ -52,5 +63,16 @@ p.options {
 
     margin: 0px;
     padding: 8px;
-    border: 1px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+
+    text-align: center;
+
+    padding: 2px;
+    margin: 0px;
 }
