@@ -3,16 +3,8 @@
 }
 
 html {
-  border: 1px solid black;
+  border: 10px solid black;
 }
-
-/*div.image1 {
-  float: left;
-}
-
-div.image2 {
-  float: left;
-}*/
 
 h1 {
   background-color: #333333;
@@ -32,8 +24,7 @@ h2 {
 }
 
 strong {
-    text-decoration: underline;
-    text-decoration-color: yellow;
+    border-bottom: 3px solid yellow;
     font-weight: 900;
 }
 
@@ -48,4 +39,18 @@ div.button {
     margin-top: 0px;
     padding: 8px 6px 8px;
     text-align: center;
+}
+
+div.image {
+  display: inline-block;
+  margin: 6px 0px 6px;
+}
+
+p.options {
+    background-color: #ffbf00;
+    font-family: sans-serif;
+
+    margin: 0px;
+    padding: 8px;
+    border: 1px solid black;
 }
